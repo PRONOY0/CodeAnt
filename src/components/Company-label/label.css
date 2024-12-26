@@ -1,0 +1,26 @@
+.auth-form-label {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.auth-form-label-text {
+  color: #171717;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Inter;
+}
+
+@media screen and (max-width: 1024px) {
+  .auth-form-label {
+    gap: 1rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
+  }
+
+  .auth-form-label-text {
+    font-size: 24px;
+    margin-top: 0.225rem;
+  }
+}

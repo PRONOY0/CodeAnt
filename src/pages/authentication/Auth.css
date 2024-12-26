@@ -1,0 +1,516 @@
+.auth {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.auth-left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  height: 100%;
+}
+
+.auth-right-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.antcode-features-box {
+  width: 90%;
+  height: 45%;
+  position: relative;
+  margin-left: 10%;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e9eaeb;
+}
+
+.antcode-feature-box1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: center;
+  width: 75%;
+  padding-top: 1.5rem;
+  height: 50%;
+  border-radius: 24px;
+  margin-top: 7vh;
+  box-shadow: 0px 0px 24px 0px #08173529;
+}
+
+.antcode-feature-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.antcode-feature-blueTexts-box {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.arrow-icon {
+  display: flex;
+  margin-left: -0.5rem;
+  justify-content: flex-start;
+}
+
+.auth-right-box {
+  border-left: 2px solid #e9eaeb;
+}
+
+.antcode-feature-box1-header h2{
+  font-size: 1.6vw;
+  font-family: Inter;
+}
+
+.antcode-feature-box1-header {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  padding-bottom: 1rem;
+}
+
+.antcode-feature-box1-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.dark-text {
+  color: #081735;
+  font-weight: 700;
+  font-size: 1vw;
+  font-family: Inter;
+  line-height: 27px;
+}
+
+.info-text {
+  color: #171717;
+  font-weight: 400;
+  font-size: 1.2vw;
+  font-family: Inter;
+  line-height: 20px;
+}
+
+.antcode-feature-box2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  padding-right: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  height: 38%;
+  border-radius: 24px;
+  box-shadow: 0px 0px 24px 0px #08173529;
+  bottom: 0;
+  right: 22%;
+}
+
+.antcode-feature-box2-header {
+  display: flex;
+  width: 100%;
+  padding-left: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 30%;
+}
+
+.pie-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #9d90fa40;
+}
+
+.pie-background svg {
+  width: 30px;
+  height: 30px;
+}
+
+.antcode-feature-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.antcode-feature-blueTexts-box {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.antcode-feature-blue-text {
+  color: #0049c6;
+  font-weight: 700;
+  font-size: 1.5vw;
+  font-family: Inter;
+}
+
+.antcode-feature-textsDark-text {
+  font-weight: 400;
+  font-size: 1.4vw;
+  font-family: Inter;
+}
+
+.antcode-feature-box2-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem 0rem 0rem 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.antcode-feature-box2-bottom-dark-text {
+  color: #171717;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 26px;
+}
+
+.antcode-feature-box2-bottom-dark-bold-text {
+  color: #171717;
+  font-weight: 700;
+  font-size: 2.2vw;
+  font-family: Inter;
+  line-height: 30px;
+}
+
+.antcode-logo-box {
+  width: 100%;
+  display: flex;
+  margin-left: -21%;
+}
+
+.auth-right-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  background: #fff;
+  border: 1px solid #e9eaeb;
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px 0px #0a0d120d;
+  padding-top: 5%;
+}
+
+.auth-form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.auth-form-label {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.auth-form-label-text {
+  color: #171717;
+  font-weight: 400;
+  font-size: 2vw;
+  font-family: Inter;
+}
+
+.auth-form-header {
+  font-weight: 600;
+  font-size: 2vw;
+  font-family: Inter;
+}
+
+.auth-form-toggle-between-login-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.auth-form-toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 60px;
+  width: 311px;
+  border-radius: 6px;
+  padding: 16px 12px 16px 12px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.SelfHosted {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+
+  box-shadow: 0px 0px 2px 0px #08173529;
+}
+
+.SAAS {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  box-shadow: 0px 0px 2px 0px #08173529;
+}
+
+.auth-form-toggle-button-active {
+  background-color: #1570ef;
+  color: #fff;
+  box-shadow: 0px -2px 0px 0px #0a0d120d;
+}
+
+.SignInBox {
+  cursor: pointer;
+  height: 8%;
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid #d8dae5;
+  background-color: #fff;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.bitBucket {
+  color: #2d88ff;
+}
+
+.azure {
+  color: #087cd5;
+}
+
+.SignIn-texts {
+  font-size: 1.2vw;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.auth-form-bottom-text {
+  padding-top: 3%;
+  font-size: 1.2vw;
+  font-family: Inter;
+  text-align: center;
+  font-weight: 400;
+}
+
+.auth-form-bottom-text span {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .auth-left-box {
+    display: none;
+  }
+
+  .auth {
+    width: 100%;
+    padding-top: 3rem;
+  }
+
+  .auth-right-box {
+    width: 100%;
+  }
+
+  .auth-form-header {
+    font-size: 18px;
+    font-family: Inter;
+  }
+
+  .auth-form-toggle-button {
+    width: 120px;
+    height: 50px;
+  }
+
+  .SignInBox {
+    margin-top: 1.5rem;
+    width: 90%;
+  }
+
+  .SignIn-texts {
+    font-size: 1rem;
+    font-family: Inter;
+  }
+
+  .auth-form-bottom-text {
+    font-size: 1rem;
+    font-family: Inter;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  .auth {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .auth-right-box {
+    width: 50%;
+  }
+
+  .auth-form-header {
+    font-size: 18px;
+  }
+
+  .auth-form-toggle-button {
+    width: 120px;
+    height: 50px;
+  }
+
+  .SignInBox {
+    margin-top: 1.5rem;
+    width: 90%;
+  }
+
+  .SignIn-texts {
+    font-size: 1rem;
+  }
+
+  .auth-form-bottom-text {
+    font-size: 1rem;
+  }
+
+  .antcode-feature-box1 {
+    width: 95%;
+  }
+
+  .antcode-feature-box2 {
+    width: 60%;
+    height: 45%;
+    right: 10%;
+  }
+
+  .antcode-feature-box2-header {
+    gap: 3rem;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .pie-background {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+  }
+
+  .antcode-feature-box2-bottom-dark-text {
+    color: #171717;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .antcode-feature-box2-bottom-dark-bold-text {
+    font-size: 22px;
+  }
+
+  .antcode-feature-box1-header h2 {
+    font-size: 18px;
+  }
+
+  .antcode-feature-box1 .line {
+    margin-top: .7rem;
+  }
+
+  .antcode-feature-box1-bottom {
+    align-items: flex-start;
+    height: 50%;
+  }
+
+  .feature{
+    align-items: center;
+  }
+
+  .info-text{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .antcode-features-box {
+    margin-left: 0;
+  }
+
+  .antcode-feature-box1-header{
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .antcode-logo-box img{
+    width: 240px;
+  }
+
+  .auth-left-box{
+    gap: 5rem;
+  }
+}
